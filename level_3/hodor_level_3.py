@@ -22,7 +22,7 @@ header = {'Referer': url,
             Chrome/83.0.4103.61 Safari/537.36'}
 
 votos = 0
-while votos <= 1000:
+while votos < 1024:
     response = requests.get(url)
     key_HoldTheDoor = response.cookies["HoldTheDoor"]
     params = {'id': '1729', 'holdthedoor': 'submit',
