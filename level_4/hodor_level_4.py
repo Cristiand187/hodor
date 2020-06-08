@@ -6,7 +6,6 @@ import json
 
 
 url = "http://158.69.76.135/level4.php"
-
 header = {'Referer': url, 'Date': 'Tues, 09 Jun 2020 00:13:11 GMT',
           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)\
             AppleWebKit/537.36 (KHTML, like Gsecko)\
